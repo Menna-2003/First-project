@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="/css/design2.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/user.png" />
+</head>
+<body>
+    <div class="header">
+        <a href="/index.html"><img src="/img/logo.png" alt="logo" class="img"></a>
+    </div>
+    <div class="container">
+        <div class="box">
+            <div class="text">Log in</div>
+            <div class="form">
+                <span class="true" id="true" style="display: none">
+                    <img src="/img/check.png" alt="" class="true_img">
+                    <div>Successfully Logged in</div>
+                </span>
+                <span class="false" id="false" style="display: none">
+                    <img src="/img/cross.png" alt="" class="false_img">
+                    <div>Wrong Username or password</div>
+                </span>
+                <label for="username" class="username_label">Username : </label>
+                <input type="text" id="Login_username" class="username_input" placeholder="Username">
+                <span id="requiredUser" class="requiredUser"></span>
+                <label for="password" class="password_label">Password : </label>
+                <input type="password" id="Login_password" class="password_input" placeholder="Password">
+                <span id="requiredPass" class="requiredPass"></span>
+                <div class="signup" id="notAmember"><a href="/pages/signup.html">not a member ?</a></div>
+                <button type="button" id="submit_button" ><a href="/index.html">Submit</a></button>
+            </div>
+        </div>
+    </div>
+    <script src="/JS/validation.js"></script>
+</body>
+</html>

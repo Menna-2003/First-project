@@ -1,0 +1,98 @@
+/* general */
+:root{
+    --main-color: #00c7fc;
+    --secondary-color:#637988;
+}
+body{
+    background-color:#eee;
+}
+.setting{
+    z-index: 1;
+    background-color: #637988;
+    margin: 0;
+    padding: 0;
+    width: 90px;
+    height: 100px;
+}
+
+.setting img{
+    width: 30px;
+    height: 30px;
+}
+.setting .gear{
+    margin-left: 91px;
+}
+.setting ul{
+    list-style: none;
+    display: grid;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+/* End general */
+
+/* start header */
+.header .img{
+    width: 167px;
+    height: 55px;
+    padding: 12px 0 0 130px;
+}
+/* End header */
+
+/* start body */
+
+.themes{
+    display: flex;
+    justify-content: center;
+    font-size:70px ;
+    padding: 50px 0;
+    font-family: emoji;
+    color: black;
+    letter-spacing: 10px;
+}
+
+.container{
+    padding-top: 50px;
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    grid-template-columns: repeat(3,400px);
+    gap: 35px;
+}
+
+.container img{
+    width: 350px;
+    height: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.4s;
+    border-radius: 30px;
+}
+
+.container ._1:hover,
+.container ._2:hover,
+.container ._3:hover,
+.container ._4:hover,
+.container ._5:hover,
+.container ._6:hover,
+.container ._7:hover,
+.container ._8:hover,
+.container ._9:hover,
+.container ._10:hover
+{
+    width: 380px;
+    height: 380px;
+}
+
+.separator{
+    display: flex;
+    justify-content: center;
+}
+.scroll_up{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 30px;
+    right: 38px;
+}
+/* end body */
